@@ -7,7 +7,8 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '22167428'))
 API_HASH = environ.get('API_HASH', 'f936053286f724b8a1df69729b28a6af')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7457856733:AAGjMGviUMlnLf_FO1P7bHmljMIPN8C2Fr8
+")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -20,7 +21,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "")
+URL = environ.get("URL", "web-production-ce2a8.up.railway.app")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001990420435'))
